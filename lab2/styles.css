@@ -1,0 +1,23 @@
+body{
+background-color: lightblue;
+}
+
+a{
+    color:red;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#NavBar a{
+    color: blue;
+    font-size: 20px;
+}
+
+#NavBar{
+    background-color: antiquewhite;
+}
+
