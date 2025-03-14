@@ -1,0 +1,145 @@
+:root{
+    --clr-dark-pink: rgb(195, 77, 97);
+    --clr-light-pink:rgb(225, 207, 207);
+    --clr-purple:rgb(207, 179, 233);
+}
+
+
+
+body{
+    background-color: rgb(250, 211, 211);
+   
+}
+#name{
+  
+    color: var(--clr-dark-pink);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Correct box-shadow */
+    font-size: larger;
+    font-weight: bolder;
+
+}
+h1{
+   
+    margin-left:560px;
+    margin-top: 0px;
+    
+}
+
+#logo img{
+    margin-left:550px;
+    background-color: white;
+    border-radius: 50%;
+}
+img{
+    margin-left:550px;
+    
+}
+p{
+    border-radius:30px;
+    background-color: var(--clr-light-pink);
+    overflow: auto;
+    padding-left: 15px;
+    color:black;
+}
+#p3{
+    border-radius:30px;
+    background-color: var(--clr-light-pink);
+    overflow: auto;
+    padding-left: 15px;
+}
+#post-date{
+    background-color: var(--clr-purple);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+}
+
+#info{
+  
+    color: var(--clr-dark-pink);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Correct box-shadow */
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 30px;
+   
+
+}
+
+#card{
+    width:500px;
+    height:370px;
+    background-color: var(--clr-purple);
+    margin-left:360px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#card p{
+    background-color: var(--clr-purple);
+   
+}
+footer{
+    padding-left: 95px;
+    letter-spacing: 3px;      
+}
+#card img{
+    border-radius:50%;
+    margin-left: 340px;
+    margin-top: 10px;
+}
+
+
+a:hover{
+    color: blue;
+    font-size: 1.1em;
+}
+
+p::first-letter{
+    font-size: 2em;
+}
+
+#p2::selection{
+    color:white;
+    font-style: italic;
+    background-color: red;
+}
+
+#p1::selection{
+    color:white;
+    background-color: brown;
+}
+
+#p3::selection{
+    color:white;
+    background-color: purple;
+}
+
+#p4::selection{
+    color:white;
+    background-color: yellowgreen;
+}
+
+#p5::selection{
+    color:white;
+    background-color: orangered;
+
+}
+
+div > ul{
+    font-style: italic;
+}
+
+#p5{
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+
+#p4{
+    line-height: 25px;
+   text-align: center;   
+}
+
