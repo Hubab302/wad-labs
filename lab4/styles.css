@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(199, 255, 199);
+}
+
+div>img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.range4{
+   background-color:rgb(8, 190, 8); 
+   color: white;
+}
+
+/* .range3{ 
+    background-color: rgb(125, 125, 237);
+} */
+
+/* .range2{
+    background-color:rgb(139, 139, 219) ;
+} */
+
+.range1{
+    background-color: red;
+    color: white
+}
+
+
+
+#heading{
+    
+    background-color:rgb(119, 197, 52);
+    border: 1px solid brown;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#form{
+    height: 400px;
+    width:400px;
+    margin-left: 430px;
+    margin-bottom: 30px;
+    /* background-color: rgb(119, 197, 52); */
+    padding-left: 8px;
+    padding-top: 8px;
+    border:1px solid green;
+}
+    
+textarea{
+    overflow: auto;
+}
+
+#entry6{
+    margin-top: 5px;
+}
+
+
+
+#entry3{
+    margin-left: 80px;
+}
+
+#entry4{
+    margin-left: 97px;
+}
+
+#entry2{
+    margin-left: 97px;
+}
+
+#entry5{
+    margin-left: 83px;
+}
+
+
+
+#entry6{
+
+    margin-left: 110px;
+}
+
+#last{
+    margin-left: 90px;
+}
+
+fieldset{
+    border: none;
+}
+
+h3{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#report h3{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+button{
+    margin-left: 320px;
+    background-color:rgb(119, 197, 52); 
+}
+
+button:hover{
+    font-size: 1.1em;
+    background-color: grey;
+}
