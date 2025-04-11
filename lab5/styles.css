@@ -1,0 +1,139 @@
+div{
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "h h h" "n n n" "s m m" "f f f";
+}
+
+#one{
+    grid-area:h
+}
+#two{
+    grid-area:n
+}
+#three{
+    grid-area: s;
+}
+#four{
+    grid-area: m;
+}
+#five{
+    grid-area: f;
+}
+
+#one h1{
+    text-align: center;
+}
+
+#one {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255); /* Text color for visibility */
+    z-index: 1;
+    overflow: hidden;
+    font-size: 4vw;
+  }
+
+  #one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('emoji.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.2; /* Adjust transparency here */
+    z-index: -1; /* Send the background behind the content */
+  }
+
+  #two{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(218, 231, 28);
+   
+  }
+
+  #two div{
+    margin-left: 15px;
+    border:none;
+    font-size: 1.5em;
+    background-color: rgb(218, 231, 28);
+  }
+
+  #three{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #three {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255); /* Text color for visibility */
+    z-index: 1;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+
+  #three::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('emoji.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.2; /* Adjust transparency here */
+    z-index: -1; /* Send the background behind the content */
+  }
+
+  #five{
+    text-align: center;
+  }
+
+
+
+
+  @media (max-width: 800px) {
+    .main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "h"
+        "n"
+        "m"
+        "f";
+    }
+  
+    #one {
+      grid-area: h;
+    }
+  
+    #two {
+      grid-area: n;
+    }
+  
+    #three {
+      display: none !important;
+      grid-area: unset; /* very important to remove its grid space */
+    }
+  
+    #four {
+      grid-area: m;
+    }
+  
+    #five {
+      grid-area: f;
+    }
+  }
