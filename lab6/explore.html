@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+    @keyframes blink {
+      0% {
+        border-color: white;
+      }
+      50% {
+        border-color: transparent;
+      }
+      100% {
+        border-color: white;
+      }
+    }
+
+    .blinking-border {
+      animation: blink 1s infinite;
+    }
+  </style>
+  </head>
+  <body class="min-h-screen">
+   <div class="bg-slate-900 width-full height-[10vh]">
+    <h1 class="text-center text-white font-bold text-4xl">Flexbox layout</h1>
+   </div>
+    <div class="w-full h-[60vh] bg-blue-950 flex flex-row justify-center items-center">
+      
+      <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+     
+      </div>
+      <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+     
+      </div>
+      <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+     
+      </div>
+    </div>
+    
+    <br><br><br><br>
+
+    <div class="bg-slate-900 width-full height-[10vh]">
+      <h1 class="text-center text-white font-bold text-4xl">Grid layout</h1>
+     </div>
+      <div class="w-full h-[80vh] bg-blue-950 grid grid-cols-3 justify-items-center items-center">
+        
+        <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+       
+        </div>
+        <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+       
+        </div>
+        <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+       
+        </div>
+        <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+       
+        </div>
+        <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+       
+        </div>
+        <div class="w-[200px] h-[200px] bg-black mr-2 border border-white blinking-border">
+       
+        </div>
+      </div>  
+
+
+      <br><br><br><br>
+      <div class="bg-blue-950">
+      <div><h1 class="text-center font-bold text-4xl text-white bg-slate-900">3. Paragraph</h1></div>
+      <p class="font-semibold text-xl text-orange-500 leading-loose">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Consectetur culpa error quaerat adipisci. Vel incidunt, obcaecati vero fugit iste nam
+         ipsum cum rerum tenetur tempore provident veritatis, sequi laborum. Deleniti!
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint dicta sunt? Voluptatem, vero illum quis facilis, necessitatibus ipsam rem ut quasi, perferendis dolor molestias perspiciatis quaerat ipsa aperiam. Cupiditate!
+         Quasi, illum deserunt. Consequuntur ipsa consectetur sint culpa deleniti cumque accusamus sunt eveniet, similique reiciendis consequatur accusantium nihil praesentium officia esse tenetur ducimus, eum quam! Expedita temporibus sed at minima.
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nam quaerat quas consequatur iusto quo ullam quia ipsam illum! Pariatur officia consequuntur debitis temporibus harum ipsum officiis maiores in quod!
+         Ipsa qui ipsum consequuntur cum voluptate, expedita voluptatum iste tempore iusto deserunt rerum ratione exercitationem reprehenderit minima totam? Quod reprehenderit nemo quos atque quas provident excepturi sapiente laborum aliquam vitae.
+      </p>
+    </div>
+
+<br><br><br><br>
+
+
+
+
+
+<div><h1 class="text-center font-bold text-4xl text-white bg-slate-900">4. Padding/margins</h1></div>
+<div class="w-[200px] h-[200px] bg-blue-950 text-white p-20 pl-5 m-5 mt-7">Hello</div>
+
+
+<div><h1 class="text-center font-bold text-4xl text-white bg-slate-900">5. Box with background and border</h1></div>
+    <div class=" border-4 border-black rounded ml-60 bg-[url('mountains.jpg')] h-[400px] w-[800px] bg-cover bg-center"></div>
+
+<br><br><br><br>
+
+    <div><h1 class="text-center font-bold text-4xl text-white bg-slate-900">6. Table</h1></div>
+    <table class="border border-gray-400">
+      <thead>
+        <tr>
+      <th class="border border-gray-400 pl-9 pr-9">Sr.</th>
+      <th class="border border-gray-400 pl-9 pr-9">Name</th>
+      <th class="border border-gray-400 pl-9 pr-9">Semester</th>
+      <th class="border border-gray-400 pl-9 pr-9">City</th> 
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-400 px-9">1</td>
+        <td class="border border-gray-400 px-9">Hubab</td>
+        <td class="border border-gray-400 px-9">6th</td>
+        <td class="border border-gray-400 px-9">Bhakkar</td>
+      </tr>
+      <tr>
+        <td class="border border-gray-400 pl-9 pr-9">2</td>
+        <td class="border border-gray-400 pl-9 pr-9">Ayesha</td>
+        <td class="border border-gray-400 pl-9 pr-9">8th</td>
+        <td class="border border-gray-400 pl-9 pr-9">Islamabad</td>
+      </tr>
+      <tr>
+        <td class="border border-gray-400 pl-9 pr-9 ">3</td>
+        <td class="border border-gray-400 pl-9 pr-9">Aqsa</td>
+        <td class="border border-gray-400 pl-9 pr-9">3rd</td>
+        <td class="border border-gray-400 pl-9 pr-9">Karachi</td>
+      </tr>
+      <tr>
+        <td class="border border-gray-400 pl-9 pr-9">4</td>
+        <td class="border border-gray-400 pl-9 pr-9">Bushra</td>
+        <td class="border border-gray-400 pl-9 pr-9">8th</td>
+        <td class="border border-gray-400 pl-9 pr-9">Lahore</td>
+      </tr>
+    </tbody>
+    </table>
+
+<br><br><br><br>
+    <div><h1 class="text-center font-bold text-4xl text-white bg-slate-900">7. Hover</h1></div>
+    <br><br><br>
+    <div class="flex items-center justify-center"><button class=" bg-slate-600 border border-black rounded w-[90px] h-[50px] text-white hover:text-black hover:bg-orange-500">Click me</button></div>
+
+    <br><br><br><br>
+    <div><h1 class="text-center font-bold text-4xl text-[#ffffff] bg-slate-900">8. Use Custom values</h1></div>
+    <br><br><br>
+    <div class="w-[600px] bg-slate-600 text-white border rounded">From Hello world to writing code of hundreds of lines, journery was amazing</div>
+    <br><br><br><br>
+    <div><h1 class="text-center font-bold text-4xl text-[#ffffff] bg-slate-900">9. Combine multiple styles</h1></div>
+    <br><br><br><br>
+   <div class="flex items-center justify-center"> <div class="w-[200px] h-[200px] bg-slate-400 hover:bg-slate-800 hover:text-white flex items-center justify-center px-4px py-8px">Hello World</div></div>
+  </body>
+</html>
