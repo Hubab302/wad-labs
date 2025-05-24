@@ -1,0 +1,173 @@
+:root{
+    --clr:#0D1321;
+}
+body
+{
+    background-color: var(--clr);
+    color:white;
+    padding:0px;
+    margin:0px;
+    font-size: 1rem;
+}
+
+
+a:hover {
+  color: red; /* change to any color you like */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#bar{
+  height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+#bar a {
+  text-decoration: none !important;
+}
+
+.barChild{
+     width: 10vw; 
+   /* // border: 1px solid #4169e1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 0.5rem;
+    color: white;
+}
+
+.barChild:hover{
+    background-color: #3b345f;
+    color:white;
+    /* background-color: white;
+    color:var(--clr); */
+}
+
+#qauBar{
+    height:28vh;
+    background-color: white;
+    color:var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 2rem; 
+}
+
+#boldText{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#smallText {
+    font-size: 0.9em;
+}
+
+#phdAd{
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#phd-ad{
+    width:80vw;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+
+#mphilAd{
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#mphil-ad{
+    width:80vw;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+#msAd{
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#ms-ad{
+    width:80vw;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+#msdsAd{
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#msds-ad{
+    width:80vw;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+#bsAd{
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#bs-ad{
+    width:80vw;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+#info{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+ 
+}
+
+#contact{
+  color: var(--clr);
+    margin-left: 10px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+
+#programs{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+#links{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+#footer{
+  background-color: #0D1321;
+  color:white;
+  height:8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

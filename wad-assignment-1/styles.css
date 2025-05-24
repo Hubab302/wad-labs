@@ -1,0 +1,280 @@
+:root{
+    --clr:#0D1321;
+}
+body
+{
+    background-color: var(--clr);
+    color:white;
+    padding:0px;
+    margin:0px;
+    font-size: 1rem;
+}
+
+a:hover {
+  color: red; /* change to any color you like */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#bar{
+  height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+
+#bar a {
+  text-decoration: none !important;
+}
+
+
+
+.barChild{
+     width: 10vw; 
+   /* // border: 1px solid #4169e1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 0.5rem;
+    color: white;
+}
+
+.barChild:hover{
+    background-color: #3b345f;
+    color:white;
+    /* background-color: white;
+    color:var(--clr); */
+}
+
+#qauBar{
+    height:28vh;
+    background-color: white;
+    color:var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 2rem; 
+}
+
+#boldText{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#smallText {
+    font-size: 0.9em;
+}
+
+/* Set the size of the section and apply the background image */
+#bgSection {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background-image: url('dept5.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Style for the text */
+#intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* To center the text */
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(13, 19, 33, 0.9); /* Adds a dark overlay to improve text readability */
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Optional: Add padding around the grid */
+}
+
+.grid-header {
+  grid-column: span 3; /* Ensures the header spans across all columns */
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Adds space between header and the grid items */
+}
+
+.grid-item {
+  background-color: white; /* White box behind the content */
+  color: #0D1321; /* Text color (dark for contrast) */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+  text-align: left; /* Left-align the text */
+}
+
+h2{
+  font-weight: bold; /* Makes the h5 title bold */
+}
+
+
+
+
+
+.slideshow {
+  position: relative;
+  width: 70vw;
+  height: 80vh;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.slideshow .slide {
+  position: absolute;
+  top: 0; left: 0;
+   width: 70vw;
+  height: 80vh;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+  z-index: 1;
+}
+
+/* Initially show first image bigger */
+.slideshow .slide:first-child {
+  opacity: 1;
+  z-index: 5;
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+/* On hover: start slideshow animation */
+.slideshow:hover .slide {
+  animation-duration: 10s; /* total cycle duration */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+/* Define individual animations with staggered delays */
+
+.slideshow:hover .slide:nth-child(1) {
+  animation-name: fadeCycle;
+  animation-delay: 0s;
+}
+
+.slideshow:hover .slide:nth-child(2) {
+  animation-name: fadeCycle;
+  animation-delay: 1s;
+}
+
+.slideshow:hover .slide:nth-child(3) {
+  animation-name: fadeCycle;
+  animation-delay: 2s;
+}
+
+.slideshow:hover .slide:nth-child(4) {
+  animation-name: fadeCycle;
+  animation-delay: 3s;
+}
+
+.slideshow:hover .slide:nth-child(5) {
+  animation-name: fadeCycle;
+  animation-delay: 4s;
+}
+
+.slideshow:hover .slide:nth-child(6) {
+  animation-name: fadeCycle;
+  animation-delay: 5s;
+}
+.slideshow:hover .slide:nth-child(7) {
+  animation-name: fadeCycle;
+  animation-delay: 6s;
+}
+.slideshow:hover .slide:nth-child(8) {
+  animation-name: fadeCycle;
+  animation-delay: 7s;
+}
+.slideshow:hover .slide:nth-child(9) {
+  animation-name: fadeCycle;
+  animation-delay: 8s;
+}
+.slideshow:hover .slide:nth-child(10) {
+  animation-name: fadeCycle;
+  animation-delay: 9s;
+}
+.slideshow:hover .slide:nth-child(11) {
+  animation-name: fadeCycle;
+  animation-delay: 10s;
+}
+.slideshow:hover .slide:nth-child(12) {
+  animation-name: fadeCycle;
+  animation-delay: 11s;
+}
+.slideshow:hover .slide:nth-child(13) {
+  animation-name: fadeCycle;
+  animation-delay: 12s;
+}
+
+
+/* Keyframes for fadeCycle: each image fades in and out */
+
+@keyframes fadeCycle {
+  0% { opacity: 0; z-index: 1; transform: scale(1); }
+  10% { opacity: 1; z-index: 10; transform: scale(1.1); }
+  30% { opacity: 1; z-index: 10; transform: scale(1.1); }
+  40% { opacity: 0; z-index: 1; transform: scale(1); }
+  100% { opacity: 0; z-index: 1; transform: scale(1); }
+}
+
+
+
+#info{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+ 
+}
+
+#contact{
+  color: var(--clr);
+    margin-left: 10px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+
+#programs{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+
+
+#Documents{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+
+
+#links{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+#footer{
+  background-color: #0D1321;
+  color:white;
+  height:8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

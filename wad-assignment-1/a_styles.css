@@ -1,0 +1,329 @@
+:root{
+    --clr:#0D1321;
+}
+body
+{
+    background-color: var(--clr);
+    color:white;
+    padding:0px;
+    margin:0px;
+    font-size: 1rem;
+}
+
+a:hover {
+  color: red; /* change to any color you like */
+  text-decoration: underline;
+  cursor: pointer;
+}
+#bar{
+  height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+#bar a {
+  text-decoration: none !important;
+}
+.barChild{
+     width: 10vw; 
+   /* // border: 1px solid #4169e1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 0.5rem;
+    color:white;
+}
+
+.barChild:hover{
+    background-color: #3b345f;
+    color:white;
+    /* background-color: white;
+    color:var(--clr); */
+}
+
+#qauBar{
+    height:28vh;
+    background-color: white;
+    color:var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 2rem; 
+}
+
+#boldText{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#smallText {
+    font-size: 0.9em;
+}
+
+
+.phd {
+  background-color: var(--clr);
+  display: flex;
+  justify-content: center;
+  /* padding: 4rem 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.phdText {
+  background-color: white; /* Dark background */
+  color: var(--clr);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  display: flex; /* Arrange children side by side */
+  gap: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center; /* Vertically center image and text */
+  font-family: 'Georgia', serif;
+}
+
+.phdImg img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.phdContent {
+  text-align: left;
+  max-width: 600px;
+}
+
+.phdContent p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+.mphil {
+  background-color: var(--clr);
+  display: flex;
+  justify-content: center;
+  /* padding: 4rem 1rem; */
+  padding-bottom:1rem ;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mphilText {
+  background-color: white; /* Dark background */
+  color: var(--clr);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  display: flex; /* Arrange children side by side */
+  gap: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center; /* Vertically center image and text */
+  font-family: 'Georgia', serif;
+}
+
+.mphilImg img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.mphilContent {
+  text-align: left;
+  max-width: 600px;
+}
+
+.mphilContent p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+.ms {
+  background-color: var(--clr);
+  display: flex;
+  justify-content: center;
+  /* padding: 4rem 1rem; */
+  padding-bottom:1rem ;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.msText {
+  background-color: white; /* Dark background */
+  color: var(--clr);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  display: flex; /* Arrange children side by side */
+  gap: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center; /* Vertically center image and text */
+  font-family: 'Georgia', serif;
+}
+
+.msImg img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.msContent {
+  text-align: left;
+  max-width: 600px;
+}
+
+.msContent p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+.msds {
+  background-color: var(--clr);
+  display: flex;
+  justify-content: center;
+  /* padding: 4rem 1rem; */
+  padding-bottom:1rem ;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.msdsText {
+  background-color: white; /* Dark background */
+  color: var(--clr);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  display: flex; /* Arrange children side by side */
+  gap: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center; /* Vertically center image and text */
+  font-family: 'Georgia', serif;
+}
+
+.msdsImg img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.msdsContent {
+  text-align: left;
+  max-width: 600px;
+}
+
+.msdsContent p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+.bs {
+  background-color: var(--clr);
+  display: flex;
+  justify-content: center;
+  /* padding: 4rem 1rem; */
+  padding-bottom:1rem ;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bsText {
+  background-color: white; /* Dark background */
+  color: var(--clr);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  display: flex; /* Arrange children side by side */
+  gap: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center; /* Vertically center image and text */
+  font-family: 'Georgia', serif;
+}
+
+.bsImg img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bsContent {
+  text-align: left;
+  max-width: 600px;
+}
+
+.bsContent p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+#info{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+ 
+}
+
+#contact{
+  color: var(--clr);
+    margin-left: 10px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+
+#programs{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+#links{
+  color:var(--clr);
+  margin-left: 60px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+#footer{
+  background-color: #0D1321;
+  color:white;
+  height:8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
