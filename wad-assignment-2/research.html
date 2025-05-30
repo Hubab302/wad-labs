@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --clr: #0D1321;
+    }
+    a:hover {
+      color: red !important;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="bg-[#0D1321] text-white m-0 p-0 text-base">
+
+  <!-- main bar -->
+  <div id="bar" class="h-[8vh] flex justify-start items-center">
+  <a href="index.html" class="w-[10vw] h-full flex justify-center items-center px-[10px] py-[5px] text-white no-underline hover:bg-[#3b345f] hover:text-white">Home</a>
+  <a href="academics.html" class="w-[10vw] h-full flex justify-center items-center px-[10px] py-[5px] text-white no-underline hover:bg-[#3b345f] hover:text-white">Academics</a>
+  <a href="research.html" class="w-[10vw] h-full flex justify-center items-center px-[10px] py-[5px] text-white no-underline hover:bg-[#3b345f] hover:text-white">Research</a>
+  <a href="projects.html" class="w-[10vw] h-full flex justify-center items-center px-[10px] py-[5px] text-white no-underline hover:bg-[#3b345f] hover:text-white">Funded Projects</a>
+  <a href="admissions.html" class="w-[10vw] h-full flex justify-center items-center px-[10px] py-[5px] text-white no-underline hover:bg-[#3b345f] hover:text-white">Admission</a>
+  <a href="faculty.html" class="w-[10vw] h-full flex justify-center items-center px-[10px] py-[5px] text-white no-underline hover:bg-[#3b345f] hover:text-white">Faculty</a>
+</div>
+
+  <!-- img div -->
+  <div id="qauBar" class="h-[38vh] flex items-center justify-center bg-white text-[#0D1321] px-[40px] py-[30px]">
+  <div id="csLogo" class="mr-[30px]">
+    <img src="cs-logo.png" alt="CS Logo" class="h-[38vh]" />
+  </div>
+  <div>
+    <span id="boldText" class="block text-[22px] font-bold leading-tight">Research</span>
+    <span id="smallText" class="block text-[14px] leading-tight">Research in the department is carried out in research areas<br> of faculty's interest through research groups.</span>
+  </div>
+</div>
+
+
+    <!-- Research Sections -->
+    <div class="bg-[#0D1321] flex justify-center py-4 w-full">
+      <div class="bg-white text-[#0D1321] p-8 rounded-2xl max-w-[900px] flex gap-8 shadow-md font-serif items-center">
+        <img src="hci.jpg" class="max-w-[300px] w-full h-auto rounded-2xl shadow-md" />
+        <div>
+          <h1 class="text-2xl mb-4">Human Information Interaction</h1>
+          <p class="text-sm leading-6">
+            Investigates all aspects of information usage by humans. Research focus varies for information seeking behavior, Information Interaction Techniques, Storage and Retrieval models/frameworks for structured and unstructured information, and information services for human information needs.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#0D1321] flex justify-center py-4 w-full">
+      <div class="bg-white text-[#0D1321] p-8 rounded-2xl max-w-[900px] flex gap-8 shadow-md font-serif items-center">
+        <img src="knowlegeEng.jpg" class="max-w-[300px] w-full h-auto rounded-2xl shadow-md" />
+        <div>
+          <h1 class="text-2xl mb-4">Knowledge Engineering</h1>
+          <p class="text-sm leading-6">
+            Focuses on analyze of data, metadata and knowledge using supervised and unsupervised mining algorithms. The target areas will be software architecture, web services and overlay networks. The main goal is to process related and uncorrelated facts and extract meaningful contextual knowledge for quality decision making.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#0D1321] flex justify-center py-4 w-full">
+      <div class="bg-white text-[#0D1321] p-8 rounded-2xl max-w-[900px] flex gap-8 shadow-md font-serif items-center">
+        <img src="NetworkCom.jpg" class="max-w-[300px] w-full h-auto rounded-2xl shadow-md" />
+        <div>
+          <h1 class="text-2xl mb-4">Networking and Communication</h1>
+          <p class="text-sm leading-6">
+            This group investigates the applied aspects in the domains of networking, communication, security and privacy. The research group focuses on a number of areas including but not limited to computer networks, distributed systems, mobile Agent-based distributed systems, routing protocols, peer-to-peer computing, security and privacy, intrusion and anomaly detection systems, data leakage prevention, computer criminology, key management schemes, trust management, internet of Things, smart homes and smart cities, pervasive computing, wireless sensor networks, cloud computing, architectural, efficiency, security and privacy issues, distributed web services, security & privacy issues in web 2.0, performance issues in web services, trust in learning management systems, formal modeling and analysis, statistical modeling, social network analysis, and structural and behavior modeling and analysis of distributed protocols and systems.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+  
+  <div id="info" class="flex justify-start bg-white">
+  <div id="contact" class="text-[var(--clr)] ml-2 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Contact us</h2>
+    <p class="text-sm leading-relaxed">
+      Department of Computer Sciences,<br>
+      Quaid-i-Azam University,<br>
+      Islamabad, 45320, Pakistan<br>
+      Tel : +92 (051) 9064-2057
+    </p>
+  </div>
+
+
+  
+  <div id="programs" class="text-[var(--clr)] ml-14 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Other programs</h2>
+    <a href="https://cs.qau.edu.pk/Phd.php" target="_blank" class="text-sm block">PhD (Computer Science)</a>
+    <a href="https://cs.qau.edu.pk/ms.php" target="_blank" class="text-sm block">MS (Information Science & Technology)</a>
+    <a href="https://cs.qau.edu.pk/mphil.php" target="_blank" class="text-sm block">MPhil Computer Science</a>
+    <a href="https://cs.qau.edu.pk/ms-ds.php" target="_blank" class="text-sm block">MS Data Science</a>
+    <a href="https://cs.qau.edu.pk/Bs.php" target="_blank" class="text-sm block">BS Computer Science</a>
+  </div>
+
+  <div id="Documents" class="text-[var(--clr)] ml-14 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Documents</h2>
+    <a href="https://cs.qau.edu.pk/doc/timetable.pdf" target="_blank" class="text-sm block">Time Table</a>
+    <a href="https://cs.qau.edu.pk/doc/semester-schedule.pdf" target="_blank" class="text-sm block">Semester Schedule</a>
+    <a href="https://cs.qau.edu.pk/doc/university-facilities.pdf" target="_blank" class="text-sm block">University Facilities</a>
+  </div>
+
+  <div id="links" class="text-[var(--clr)] ml-14 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Useful Links</h2>
+    <a href="https://qau.edu.pk/" target="_blank" class="text-sm block">QAU</a>
+    <a href="https://cs.qau.edu.pk/admissions.php" target="_blank" class="text-sm block">Admission</a>
+    <a href="https://cs.qau.edu.pk/contactUs.php" target="_blank" class="text-sm block">Contact</a>
+  </div>
+</div>
+
+<!-- footer -->
+<div id="footer" class="bg-[#0D1321] text-white h-[8vh] flex justify-center items-center text-sm">
+  2025 © Department of Computer Sciences, QAU, Islamabad
+</div>
+
+</body>
+</html>

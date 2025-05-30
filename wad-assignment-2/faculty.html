@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Computer Science Department - Faculty</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --clr: #0D1321;
+    }
+    a:hover {
+      color: red !important;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="bg-[#0D1321] text-white m-0 p-0 text-base">
+
+  <!-- Navigation bar -->
+  <div id="bar" class="h-[8vh] flex justify-start items-center space-x-2 px-4">
+    <a href="index.html" class="w-[10vw] h-full flex justify-center items-center px-2 py-1 text-white no-underline hover:bg-[#3b345f] hover:text-white">Home</a>
+    <a href="academics.html" class="w-[10vw] h-full flex justify-center items-center px-2 py-1 text-white no-underline hover:bg-[#3b345f] hover:text-white">Academics</a>
+    <a href="research.html" class="w-[10vw] h-full flex justify-center items-center px-2 py-1 text-white no-underline hover:bg-[#3b345f] hover:text-white">Research</a>
+    <a href="projects.html" class="w-[10vw] h-full flex justify-center items-center px-2 py-1 text-white no-underline hover:bg-[#3b345f] hover:text-white">Funded Projects</a>
+    <a href="admissions.html" class="w-[10vw] h-full flex justify-center items-center px-2 py-1 text-white no-underline hover:bg-[#3b345f] hover:text-white">Admission</a>
+    <a href="faculty.html" class="w-[10vw] h-full flex justify-center items-center px-2 py-1 text-white no-underline hover:bg-[#3b345f] hover:text-white">Faculty</a>
+  </div>
+
+  <!-- Department header -->
+  <div id="qauBar" class="h-[38vh] flex items-center justify-center bg-white text-[#0D1321] px-10 py-8">
+    <div id="csLogo" class="mr-8 flex-shrink-0">
+      <img src="cs-logo.png" alt="CS Logo" class="h-[38vh]" />
+    </div>
+    <div>
+      <span id="boldText" class="block text-2xl font-bold leading-tight">Our Faculty</span>
+      <span id="smallText" class="block text-sm leading-tight">Our faculty members challenge their students,<br>
+share insights gained through professional experience and communicate<br>
+the knowledge they've spent a lifetime acquiring.</span>
+    </div>
+  </div>
+  <div id="fImg" class="pt-4 flex justify-center items-start">
+    <img src="deptfac2022.jpg" alt="Department Faculty" class="max-w-4xl w-full object-contain" />
+  </div>
+
+
+  <div id="facultyCards" class="flex flex-wrap justify-center items-start gap-8 py-8 px-6">
+
+    <!-- Faculty Card 1 -->
+    <div class="faculty-card w-[25vw] min-w-[280px] max-w-sm h-[300px] border border-white p-4 overflow-auto rounded-md">
+      <a href="https://cs.qau.edu.pk/profiles/onaiza.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Onaiza Maqbool</a>
+      <p class="mb-2">Professor</p>
+      <h3 class="font-semibold mb-1">Research Interests</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Software reengineering</li>
+        <li>Software architecture recovery</li>
+        <li>Program understanding</li>
+        <li>Machine learning</li>
+      </ul>
+      <a href="mailto:oniaza@qau.edu.pk" class="block mb-1 hover:underline text-white">oniaza@qau.edu.pk</a>
+      <a href="tel:+925190642060" class="block hover:underline text-white">+92-51-9064 2060</a>
+    </div>
+
+    <!-- Faculty Card 2 -->
+    <div class="faculty-card w-[25vw] min-w-[280px] max-w-sm h-[300px] border border-white p-4 overflow-auto rounded-md">
+      <a href="https://cs.qau.edu.pk/profiles/khalid.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Khalid Saleem</a>
+      <p class="mb-2">Associate Professor</p>
+      <h3 class="font-semibold mb-1">Research Interests</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Database Systems, Information Systems</li>
+        <li>Distributed Systems</li>
+        <li>Data Warehousing/Mining</li>
+      </ul>
+      <a href="mailto:ksaleem@qau.edu.pk" class="block mb-1 hover:underline text-white">ksaleem@qau.edu.pk</a>
+      <a href="tel:+925190642061" class="block hover:underline text-white">+92-51-9064 2061</a>
+    </div>
+
+    <!-- Faculty Card 3 -->
+    <div class="faculty-card w-[25vw] min-w-[280px] max-w-sm h-[300px] border border-white p-4 overflow-auto rounded-md">
+      <a href="https://cs.qau.edu.pk/profiles/shuaib.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Shuaib Karim</a>
+      <p class="mb-2">Assistant Professor</p>
+      <h3 class="font-semibold mb-1">Research Interests</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Usability / Accessibility of Interactive Systems</li>
+        <li>Web Engineering</li>
+        <li>Applied aspects of ontologies</li>
+      </ul>
+      <a href="mailto:skarim@qau.edu.pk" class="block mb-1 hover:underline text-white mb-1">skarim@qau.edu.pk</a>
+      <a href="tel:+925190642055" class="block hover:underline text-white">+92-51-9064 2055</a>
+    </div>
+
+    <!-- Faculty Card 4 -->
+    <div class="faculty-card w-[25vw] min-w-[280px] max-w-sm h-[300px] border border-white p-4 overflow-auto rounded-md">
+      <a href="https://cs.qau.edu.pk/profiles/rabeeh.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Rabeeh Ayaz Abbasi</a>
+      <p class="mb-2">Professor</p>
+      <h3 class="font-semibold mb-1">Research Interests</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Social Computing</li>
+        <li>Network Science</li>
+        <li>Data Science</li>
+      </ul>
+      <a href="mailto:rabbasi@qau.edu.pk" class="block mb-1 hover:underline text-white">rabbasi@qau.edu.pk</a>
+      <a href="tel:+925190642050" class="block hover:underline text-white">+92-51-9064 2050</a>
+    </div>
+
+    <!-- Faculty Card 5 -->
+    <div class="faculty-card w-[25vw] min-w-[280px] max-w-sm h-[300px] border border-white p-4 overflow-auto rounded-md">
+      <a href="https://cs.qau.edu.pk/profiles/ayyaz.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Ayyaz Hussain</a>
+      <p class="mb-1">Chairman</p>
+      <p class="mb-2">Professor</p>
+      <h3 class="font-semibold mb-1">Research Interests</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Pattern Recognition</li>
+        <li>Image Processing</li>
+        <li>Computational Intelligence</li>
+      </ul>
+      <a href="mailto:ayyaz.hussain@qau.edu.pk" class="block mb-1 hover:underline text-white">ayyaz.hussain@qau.edu.pk</a>
+      <a href="tel:+925190642059" class="block hover:underline text-white">+92-51-9064 2059</a>
+    </div>
+
+    <!-- Faculty Card 6 -->
+    <div class="faculty-card w-[25vw] min-w-[280px] max-w-sm h-[300px] border border-white p-4 overflow-auto rounded-md">
+      <a href="https://cs.qau.edu.pk/profiles/muazzam.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Muazzam A Khan Khattak</a>
+      <p class="mb-2">Professor</p>
+      <h3 class="font-semibold mb-1">Research Interests</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Internet of Things, Next Generation Intelligent Networks</li>
+        <li>Blockchain Based Information and Network Security</li>
+        <li>Vehicular Ad-hoc and Sensor Actor Networks</li>
+        <li>Acoustic and Multimedia Networks</li>
+      </ul>
+      <a href="mailto:muazzam@qau.edu.pk" class="block mb-1 hover:underline text-white">muazzam@qau.edu.pk</a>
+      <a href="tel:+925190642048" class="block hover:underline text-white">+92-51-9064 2048</a>
+    </div>
+
+
+
+
+
+
+    <div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <a href="https://cs.qau.edu.pk/profiles/shuaib.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Ghazanfar Farooq Siddiqui</a><br />
+      <p>Associate Professor</p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+        <li>Agents (Virtual Agents)</li>
+            <li>Modeling and Simulation</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">ghazanfar at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2058</a>
+    </div>
+
+
+
+<div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <a href="https://cs.qau.edu.pk/profiles/shuaib.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Muddassar Azam Sindhu</a><br />
+      <p>Professor</p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+      <li>Software Testing</li>
+            <li>Model Mining</li>
+            <li>Formal Methods</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">masindhu at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2066</a>
+    </div>
+
+  <div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <a href="https://cs.qau.edu.pk/profiles/shuaib.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Akmal Saeed Khattak</a><br />
+      <p>Associate Professor</p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+      <li>Information Retrieval</li>
+            <li>Machine Learning</li>
+            <li>Text Mining</li>
+            <li>Natural Language Processing</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">akhattak at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2161</a>
+    </div>
+
+
+
+ <div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <a href="https://cs.qau.edu.pk/profiles/shuaib.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. Umer Rasheed</a><br />
+      <p>Associate Professor</p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+             <li>Multimedia Information Retrieval</li>
+            <li>Human Aspects of Computing</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">umerrashid at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2012</a>
+    </div>
+
+
+      <div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <a href="https://cs.qau.edu.pk/profiles/shuaib.htm" class="text-white hover:underline font-semibold text-lg block mb-1">Dr. S. M. Naqi</a><br />
+      <p>Assistant Professor</p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+             <li>Medical Imaging</li>
+            <li>Machine Learning</li>
+            <li>Image Segmentation and Classification</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">smnaqi at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2013</a>
+    </div>
+    <div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <p class= "font-semibold text-lg block mb-1">Memoona Afsheen Malik</p>
+      <p>
+        Lecturer
+      </p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+          <li>Problem Solving and Programming</li>
+            <li>Data Structures and Algorithms</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">memoona at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2064</a>
+    </div>
+
+
+    <div class="faculty-card w-[25vw] h-[300px] border border-white p-4 overflow-auto">
+      <p class= "font-semibold text-lg block mb-1">Ifrah Farrukh Khan</p>
+      <p>
+        Lecturer
+      </p>
+      <h3 class="mt-2 font-semibold">Research Interests</h3>
+      <ul class="list-disc list-inside">
+         <li>Database Systems</li>
+            <li>Networking</li>
+      </ul>
+      <a href="#" class="text-white hover:underline block">ifrahkhan at qau dot edu dot pk</a>
+      <a href="#" class="text-white hover:underline block">+92-51-9064 2005</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info" class="flex justify-start bg-white">
+  <div id="contact" class="text-[var(--clr)] ml-2 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Contact us</h2>
+    <p class="text-sm leading-relaxed">
+      Department of Computer Sciences,<br>
+      Quaid-i-Azam University,<br>
+      Islamabad, 45320, Pakistan<br>
+      Tel : +92 (051) 9064-2057
+    </p>
+  </div>
+
+
+  
+  <div id="programs" class="text-[var(--clr)] ml-14 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Other programs</h2>
+    <a href="https://cs.qau.edu.pk/Phd.php" target="_blank" class="text-sm block">PhD (Computer Science)</a>
+    <a href="https://cs.qau.edu.pk/ms.php" target="_blank" class="text-sm block">MS (Information Science & Technology)</a>
+    <a href="https://cs.qau.edu.pk/mphil.php" target="_blank" class="text-sm block">MPhil Computer Science</a>
+    <a href="https://cs.qau.edu.pk/ms-ds.php" target="_blank" class="text-sm block">MS Data Science</a>
+    <a href="https://cs.qau.edu.pk/Bs.php" target="_blank" class="text-sm block">BS Computer Science</a>
+  </div>
+
+  <div id="Documents" class="text-[var(--clr)] ml-14 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Documents</h2>
+    <a href="https://cs.qau.edu.pk/doc/timetable.pdf" target="_blank" class="text-sm block">Time Table</a>
+    <a href="https://cs.qau.edu.pk/doc/semester-schedule.pdf" target="_blank" class="text-sm block">Semester Schedule</a>
+    <a href="https://cs.qau.edu.pk/doc/university-facilities.pdf" target="_blank" class="text-sm block">University Facilities</a>
+  </div>
+
+  <div id="links" class="text-[var(--clr)] ml-14 mt-8 mb-8">
+    <h2 class="text-lg font-semibold mb-2">Useful Links</h2>
+    <a href="https://qau.edu.pk/" target="_blank" class="text-sm block">QAU</a>
+    <a href="https://cs.qau.edu.pk/admissions.php" target="_blank" class="text-sm block">Admission</a>
+    <a href="https://cs.qau.edu.pk/contactUs.php" target="_blank" class="text-sm block">Contact</a>
+  </div>
+</div>
+
+<!-- footer -->
+<div id="footer" class="bg-[#0D1321] text-white h-[8vh] flex justify-center items-center text-sm">
+  2025 © Department of Computer Sciences, QAU, Islamabad
+</div>
+
+</body>
+</html>
